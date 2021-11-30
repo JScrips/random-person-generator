@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<div lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class='bg-black'>
+    <div
+      class="
+        border-2 border-black
+        rounded-xl
+        relative
+        mx-auto
+        h-screen
+        w-4/5
+        grid
+        grid-cols-1
+        gap-4
+        justify-items-center
+        m-96
+        container
+        bg-gray-500
+        border-dotted
+      "
+    >
+    <div class="displayPicture  justify-start w-32 h-32 border-4 border-red-500 p-1 bg-black border-double">
+        <h1 class="">Change this Picture</h1>
+        <img src="" alt="" />
+    </div>
+
+      <button
+        class="
+          clickMe
+          border-4
+          rounded-xl
+          border-black
+          bg-red-600
+          text-white text-lg
+          uppercase
+          curser-pointer
+          p-6
+          hover:bg-pink-700 hover:text-black hover:border-white hover:scale-150
+          transform-gpu
+          shadow-lg
+          duration-1000
+          absolute
+          top-30
+          self-end
+
+        "
+      >
+        Create a Random Person!
+      </button>
+      <div class = 'allinfo  rounded-xl inline-grid absolute self-center w-full  h-4/6 bg-gray-500'>
+          <h1 class='text-center text-2xl text-white'> Name </h1>
+      <div><h1 class="displayName justify-center flex  m-1 "></h1></div>
+      <h1 class='text-center text-2xl text-white'> Gender </h1>
+      <div><h1 class="displayGender justify-center flex m-1 "></h1></div>
+      <h1 class='text-center text-2xl text-white'> Email </h1>
+      <div><h1 class="displayEmail justify-center flex m-1 "></h1></div>
+      <h1 class='text-center text-2xl text-white'> Cell Number </h1>
+      <div><h1 class="displayCell justify-center flex m-1 "></h1></div>
+      <h1 class='text-center text-2xl text-white'> Location </h1>
+      <div><h1 class="displayLocation justify-center flex m-1 "></h1></div>
+      <h1 class='text-center text-2xl text-white'> Birthday </h1>
+      <div><h1 class="displayDob justify-center flex m-2 border-1 "></h1></div>
+
+    
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
