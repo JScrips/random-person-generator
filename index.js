@@ -33,7 +33,7 @@ function getData() {
       displayEmail.innerHTML = `<p class='text-center text-lg text-white'> ${person.email} </p>`;
       displayCell.innerHTML = `<p class='text-center text-lg text-white'> ${person.cell} </p>`;
       displayLocation.innerHTML = `<p class='text-center text-lg text-white'> ${person.location} </p>`;
-      displayPicture.innerHTML = `<img src='${person.picture}' alt=''/>`
+      displayPicture.innerHTML = `<img class="" src='${person.picture}' alt=''/>`
       displayDob.innerHTML = `<p class='text-center text-lg text-white'> ${person.dob} </p>`
       
      
